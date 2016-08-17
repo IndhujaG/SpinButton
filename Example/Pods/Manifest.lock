@@ -1,0 +1,16 @@
+PODS:
+  - SpinButton (0.1.0)
+
+DEPENDENCIES:
+  - SpinButton (from `../`)
+
+EXTERNAL SOURCES:
+  SpinButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SpinButton: 8b586642161d1a7f2e67655be251aeed914cbbd4
+
+PODFILE CHECKSUM: feb39b03b2543d036e529cfa84bd18085c5cacd3
+
+COCOAPODS: 1.0.1

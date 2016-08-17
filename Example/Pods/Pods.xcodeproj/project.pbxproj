@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E7D0578532F08522620425DC214782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1BAED7E9B5D4B20F1407E5893C44226B /* SpinButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA7AFEE4BB4E45F23212A42FB782F40E /* SpinButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DCF41D5CC53CD2CC66573A08D0FE474 /* Pods-SpinButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B3C94FB8CC08F5B9ED0A76661C606E /* Pods-SpinButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CA795DEF4C9BFFDA9E49A95289FCEC9 /* Pods-SpinButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6276FE429673B77587DD722D177925 /* Pods-SpinButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FC5699211272EED04DF0BE43A7A28DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6AFBC88F6328F3A12A46C038A692EFE6 /* SpinButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D48332B35DC2E0B26DF97E6435360B56 /* SpinButton-dummy.m */; };
+		A774C669289DE0C341C81388822402B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B1A45F7CB1359128BCAD9ED472882FC7 /* Pods-SpinButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F88BF3E915F22F7046F572D5B5120 /* Pods-SpinButton_Tests-dummy.m */; };
+		BA316DA0A6237350854F67CC98A793DA /* Pods-SpinButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84299A90191473BB88C4A62FF942C309 /* Pods-SpinButton_Example-dummy.m */; };
+		CB33AB4D3F0EBE65605049E4897E11C7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B09DB5B398EB83430082C7CC228BA /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF5A17318DC0F76C3A195F4E9C667AA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F417377A7C17D3A7095FD75B3D840746;
+			remoteInfo = SpinButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074493032455A20023643DBD7B45D94C /* SpinButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpinButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEDF7D6D2B1C38BA28C975A45FF9879 /* Pods-SpinButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpinButton_Example-resources.sh"; sourceTree = "<group>"; };
+		177B09DB5B398EB83430082C7CC228BA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		28B3C94FB8CC08F5B9ED0A76661C606E /* Pods-SpinButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpinButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		3345E1F6DC87CFD46523D8D7E7F3D7ED /* SpinButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpinButton-prefix.pch"; sourceTree = "<group>"; };
+		35500D176BC285FB0DEB512F2879BB06 /* Pods-SpinButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpinButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DA76545960A06958BB41C3B1C8574F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46DFDF39728CA99235D5CA4CFFFC602E /* Pods-SpinButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpinButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		4B350F74C01A0D96CD9AEE7C9D300E35 /* Pods_SpinButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpinButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA68FF75D4ADEE225D1D79DB5F76D01 /* Pods-SpinButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpinButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		54710B3C27B0C59773D5A51B87278BF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6276FE429673B77587DD722D177925 /* Pods-SpinButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpinButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		713DADEE5F5E08D5382F09EE0EFD50B5 /* Pods_SpinButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpinButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A5536C0D0FCEB06674AC29D800A225 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84299A90191473BB88C4A62FF942C309 /* Pods-SpinButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpinButton_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97CA200F03C7C1A8B33B8BDA9B186CF5 /* SpinButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpinButton.xcconfig; sourceTree = "<group>"; };
+		A54AEE0567E018AF8864462233BB067C /* Pods-SpinButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpinButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A7793834B3E0A1833F58DB5A7BF0C768 /* Pods-SpinButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpinButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AD13F81E2F8CAFB97D481126BDD96234 /* Pods-SpinButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpinButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C162794FBF9EB1706B5E24B125099595 /* Pods-SpinButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpinButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C392774AE33B4F2215186D9C879F611E /* Pods-SpinButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SpinButton_Example.modulemap"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D48332B35DC2E0B26DF97E6435360B56 /* SpinButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpinButton-dummy.m"; sourceTree = "<group>"; };
+		DA7AFEE4BB4E45F23212A42FB782F40E /* SpinButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpinButton-umbrella.h"; sourceTree = "<group>"; };
+		E0837884005794AD559123439B4771DD /* Pods-SpinButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SpinButton_Tests.modulemap"; sourceTree = "<group>"; };
+		E96F88BF3E915F22F7046F572D5B5120 /* Pods-SpinButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpinButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		F14A19603879C554B9621874E0F0C7C3 /* SpinButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SpinButton.modulemap; sourceTree = "<group>"; };
+		F7EB13F607FA55119AE33E9CFB87C09E /* Pods-SpinButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpinButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FACE2AB91F3E80C70C6B47137714B096 /* Pods-SpinButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpinButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBB6C9FB7F03AB74A488B83BC11DAF79 /* Pods-SpinButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpinButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFE5FE97CF16E3EBD6CE1B615D4D7847 /* Pods-SpinButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpinButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3727B639922DC8EAA865D1E31E64F99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A774C669289DE0C341C81388822402B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF52C608FA1E6E498797A466768527C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E7D0578532F08522620425DC214782 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1AFA24FA9004113F03B439455F183D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC5699211272EED04DF0BE43A7A28DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		41A682999768DD8311E6A32E15EB4787 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FFAE8C5124F18916A1E9715F487D28B /* Pods-SpinButton_Example */,
+				7CA0061AEE9490D540604C2F95AA3314 /* Pods-SpinButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		49C21F42BBA9B84ADD95FCD64A80C3AF /* SpinButton */ = {
+			isa = PBXGroup;
+			children = (
+				FEA24FC5FCE288B415E431956396EFB8 /* SpinButton */,
+				51A4DC8C2E71C5C1E85904B4084E04A8 /* Support Files */,
+			);
+			name = SpinButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		51A4DC8C2E71C5C1E85904B4084E04A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54710B3C27B0C59773D5A51B87278BF3 /* Info.plist */,
+				F14A19603879C554B9621874E0F0C7C3 /* SpinButton.modulemap */,
+				97CA200F03C7C1A8B33B8BDA9B186CF5 /* SpinButton.xcconfig */,
+				D48332B35DC2E0B26DF97E6435360B56 /* SpinButton-dummy.m */,
+				3345E1F6DC87CFD46523D8D7E7F3D7ED /* SpinButton-prefix.pch */,
+				DA7AFEE4BB4E45F23212A42FB782F40E /* SpinButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SpinButton";
+			sourceTree = "<group>";
+		};
+		7CA0061AEE9490D540604C2F95AA3314 /* Pods-SpinButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3DA76545960A06958BB41C3B1C8574F3 /* Info.plist */,
+				E0837884005794AD559123439B4771DD /* Pods-SpinButton_Tests.modulemap */,
+				C162794FBF9EB1706B5E24B125099595 /* Pods-SpinButton_Tests-acknowledgements.markdown */,
+				FFE5FE97CF16E3EBD6CE1B615D4D7847 /* Pods-SpinButton_Tests-acknowledgements.plist */,
+				E96F88BF3E915F22F7046F572D5B5120 /* Pods-SpinButton_Tests-dummy.m */,
+				F7EB13F607FA55119AE33E9CFB87C09E /* Pods-SpinButton_Tests-frameworks.sh */,
+				46DFDF39728CA99235D5CA4CFFFC602E /* Pods-SpinButton_Tests-resources.sh */,
+				6C6276FE429673B77587DD722D177925 /* Pods-SpinButton_Tests-umbrella.h */,
+				FBB6C9FB7F03AB74A488B83BC11DAF79 /* Pods-SpinButton_Tests.debug.xcconfig */,
+				A7793834B3E0A1833F58DB5A7BF0C768 /* Pods-SpinButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-SpinButton_Tests";
+			path = "Target Support Files/Pods-SpinButton_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7E919FA6B7F94D7025A5C70DE7AF6616 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E29D94863F966AAF69D15D3D843A291E /* Products */,
+				41A682999768DD8311E6A32E15EB4787 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E919FA6B7F94D7025A5C70DE7AF6616 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49C21F42BBA9B84ADD95FCD64A80C3AF /* SpinButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9FFAE8C5124F18916A1E9715F487D28B /* Pods-SpinButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				72A5536C0D0FCEB06674AC29D800A225 /* Info.plist */,
+				C392774AE33B4F2215186D9C879F611E /* Pods-SpinButton_Example.modulemap */,
+				35500D176BC285FB0DEB512F2879BB06 /* Pods-SpinButton_Example-acknowledgements.markdown */,
+				FACE2AB91F3E80C70C6B47137714B096 /* Pods-SpinButton_Example-acknowledgements.plist */,
+				84299A90191473BB88C4A62FF942C309 /* Pods-SpinButton_Example-dummy.m */,
+				AD13F81E2F8CAFB97D481126BDD96234 /* Pods-SpinButton_Example-frameworks.sh */,
+				0EEDF7D6D2B1C38BA28C975A45FF9879 /* Pods-SpinButton_Example-resources.sh */,
+				28B3C94FB8CC08F5B9ED0A76661C606E /* Pods-SpinButton_Example-umbrella.h */,
+				4FA68FF75D4ADEE225D1D79DB5F76D01 /* Pods-SpinButton_Example.debug.xcconfig */,
+				A54AEE0567E018AF8864462233BB067C /* Pods-SpinButton_Example.release.xcconfig */,
+			);
+			name = "Pods-SpinButton_Example";
+			path = "Target Support Files/Pods-SpinButton_Example";
+			sourceTree = "<group>";
+		};
+		B07F69D4D039D7327117B40175C526C5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				177B09DB5B398EB83430082C7CC228BA /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E29D94863F966AAF69D15D3D843A291E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B350F74C01A0D96CD9AEE7C9D300E35 /* Pods_SpinButton_Example.framework */,
+				713DADEE5F5E08D5382F09EE0EFD50B5 /* Pods_SpinButton_Tests.framework */,
+				074493032455A20023643DBD7B45D94C /* SpinButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA24FC5FCE288B415E431956396EFB8 /* SpinButton */ = {
+			isa = PBXGroup;
+			children = (
+				B07F69D4D039D7327117B40175C526C5 /* Classes */,
+			);
+			path = SpinButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		160C8AB4A740B52EB4F701A3D8110C28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA795DEF4C9BFFDA9E49A95289FCEC9 /* Pods-SpinButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E667498115CBD722B2E36B7BF2FF92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAED7E9B5D4B20F1407E5893C44226B /* SpinButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01F7462F1A6C107179DB6835F3D5CBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCF41D5CC53CD2CC66573A08D0FE474 /* Pods-SpinButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5ED3D9568CA20D6A6D4BD203C94DDDBE /* Pods-SpinButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339D5F0D8BE06C7FDB4A9C625844BE06 /* Build configuration list for PBXNativeTarget "Pods-SpinButton_Tests" */;
+			buildPhases = (
+				C44B338898381D1E9294EE17909667A3 /* Sources */,
+				3727B639922DC8EAA865D1E31E64F99A /* Frameworks */,
+				160C8AB4A740B52EB4F701A3D8110C28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SpinButton_Tests";
+			productName = "Pods-SpinButton_Tests";
+			productReference = 713DADEE5F5E08D5382F09EE0EFD50B5 /* Pods_SpinButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F21D1BB3A5C9CC68F695C5C09A65229 /* Pods-SpinButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E80EDD737FAFFE24CCDA0D89B1C0953 /* Build configuration list for PBXNativeTarget "Pods-SpinButton_Example" */;
+			buildPhases = (
+				74C55B7970F5AEB0C465F17F39657F51 /* Sources */,
+				C1AFA24FA9004113F03B439455F183D1 /* Frameworks */,
+				D01F7462F1A6C107179DB6835F3D5CBC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A636DF7B5DA8A926FAAE96E3744122E /* PBXTargetDependency */,
+			);
+			name = "Pods-SpinButton_Example";
+			productName = "Pods-SpinButton_Example";
+			productReference = 4B350F74C01A0D96CD9AEE7C9D300E35 /* Pods_SpinButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F417377A7C17D3A7095FD75B3D840746 /* SpinButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF5F358D63747D1C7103C6B204A9C09 /* Build configuration list for PBXNativeTarget "SpinButton" */;
+			buildPhases = (
+				07D34A5086E4D4103D8CC60284C261E6 /* Sources */,
+				BF52C608FA1E6E498797A466768527C9 /* Frameworks */,
+				55E667498115CBD722B2E36B7BF2FF92 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinButton;
+			productName = SpinButton;
+			productReference = 074493032455A20023643DBD7B45D94C /* SpinButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E29D94863F966AAF69D15D3D843A291E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F21D1BB3A5C9CC68F695C5C09A65229 /* Pods-SpinButton_Example */,
+				5ED3D9568CA20D6A6D4BD203C94DDDBE /* Pods-SpinButton_Tests */,
+				F417377A7C17D3A7095FD75B3D840746 /* SpinButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D34A5086E4D4103D8CC60284C261E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB33AB4D3F0EBE65605049E4897E11C7 /* ReplaceMe.swift in Sources */,
+				6AFBC88F6328F3A12A46C038A692EFE6 /* SpinButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C55B7970F5AEB0C465F17F39657F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA316DA0A6237350854F67CC98A793DA /* Pods-SpinButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44B338898381D1E9294EE17909667A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A45F7CB1359128BCAD9ED472882FC7 /* Pods-SpinButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A636DF7B5DA8A926FAAE96E3744122E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpinButton;
+			target = F417377A7C17D3A7095FD75B3D840746 /* SpinButton */;
+			targetProxy = BF5A17318DC0F76C3A195F4E9C667AA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05D049232C7B6FF87DFD1C090BAE842A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA68FF75D4ADEE225D1D79DB5F76D01 /* Pods-SpinButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpinButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpinButton_Example/Pods-SpinButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpinButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39560BE179C29D6E936AE52D96B1BF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB6C9FB7F03AB74A488B83BC11DAF79 /* Pods-SpinButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpinButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpinButton_Tests/Pods-SpinButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpinButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A75B0C190F71151B7D48CE84A29C20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54AEE0567E018AF8864462233BB067C /* Pods-SpinButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpinButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpinButton_Example/Pods-SpinButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpinButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52FB493BEE901E8D50BBF51771122361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7793834B3E0A1833F58DB5A7BF0C768 /* Pods-SpinButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpinButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpinButton_Tests/Pods-SpinButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpinButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62049A821B0FBA0CB0506B8D248FBE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97CA200F03C7C1A8B33B8BDA9B186CF5 /* SpinButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SpinButton/SpinButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpinButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SpinButton/SpinButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SpinButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D7AB5884464ED4187EC13F8551CB9063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97CA200F03C7C1A8B33B8BDA9B186CF5 /* SpinButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SpinButton/SpinButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpinButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SpinButton/SpinButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SpinButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CF5F358D63747D1C7103C6B204A9C09 /* Build configuration list for PBXNativeTarget "SpinButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62049A821B0FBA0CB0506B8D248FBE08 /* Debug */,
+				D7AB5884464ED4187EC13F8551CB9063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339D5F0D8BE06C7FDB4A9C625844BE06 /* Build configuration list for PBXNativeTarget "Pods-SpinButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39560BE179C29D6E936AE52D96B1BF54 /* Debug */,
+				52FB493BEE901E8D50BBF51771122361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E80EDD737FAFFE24CCDA0D89B1C0953 /* Build configuration list for PBXNativeTarget "Pods-SpinButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D049232C7B6FF87DFD1C090BAE842A /* Debug */,
+				4A75B0C190F71151B7D48CE84A29C20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

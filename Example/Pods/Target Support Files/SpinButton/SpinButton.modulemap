@@ -1,0 +1,6 @@
+framework module SpinButton {
+  umbrella header "SpinButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SpinButton_Tests {
+  umbrella header "Pods-SpinButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
