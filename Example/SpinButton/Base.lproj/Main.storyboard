@@ -16,11 +16,28 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pxo-iY-mtl" customClass="SWSpinButton" customModule="SpinButton">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="handleSpinBtn:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rqD-CE-cQf"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pxo-iY-mtl" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="8TR-Df-vzL"/>
+                            <constraint firstItem="Pxo-iY-mtl" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="z8X-uN-RGQ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="spinBtn" destination="Pxo-iY-mtl" id="foj-t4-p8a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="270"/>
         </scene>
     </scenes>
 </document>

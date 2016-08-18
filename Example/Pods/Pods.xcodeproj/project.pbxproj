@@ -12,11 +12,11 @@
 		2DCF41D5CC53CD2CC66573A08D0FE474 /* Pods-SpinButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B3C94FB8CC08F5B9ED0A76661C606E /* Pods-SpinButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CA795DEF4C9BFFDA9E49A95289FCEC9 /* Pods-SpinButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6276FE429673B77587DD722D177925 /* Pods-SpinButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FC5699211272EED04DF0BE43A7A28DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		6AFBC88F6328F3A12A46C038A692EFE6 /* SpinButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D48332B35DC2E0B26DF97E6435360B56 /* SpinButton-dummy.m */; };
+		A67D69634C929B4B8088EB1BCCF1456A /* SpinButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D48332B35DC2E0B26DF97E6435360B56 /* SpinButton-dummy.m */; };
 		A774C669289DE0C341C81388822402B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		B1A45F7CB1359128BCAD9ED472882FC7 /* Pods-SpinButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F88BF3E915F22F7046F572D5B5120 /* Pods-SpinButton_Tests-dummy.m */; };
 		BA316DA0A6237350854F67CC98A793DA /* Pods-SpinButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84299A90191473BB88C4A62FF942C309 /* Pods-SpinButton_Example-dummy.m */; };
-		CB33AB4D3F0EBE65605049E4897E11C7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177B09DB5B398EB83430082C7CC228BA /* ReplaceMe.swift */; };
+		F7AAC5EB0B7CFCAC7DE083C5CD2C0F8B /* SWSpinButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEEC0690990211594DDB2399C180075 /* SWSpinButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,7 @@
 /* Begin PBXFileReference section */
 		074493032455A20023643DBD7B45D94C /* SpinButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpinButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEDF7D6D2B1C38BA28C975A45FF9879 /* Pods-SpinButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpinButton_Example-resources.sh"; sourceTree = "<group>"; };
-		177B09DB5B398EB83430082C7CC228BA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		1EEEC0690990211594DDB2399C180075 /* SWSpinButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SWSpinButton.swift; sourceTree = "<group>"; };
 		28B3C94FB8CC08F5B9ED0A76661C606E /* Pods-SpinButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpinButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		3345E1F6DC87CFD46523D8D7E7F3D7ED /* SpinButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpinButton-prefix.pch"; sourceTree = "<group>"; };
 		35500D176BC285FB0DEB512F2879BB06 /* Pods-SpinButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpinButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -133,6 +133,14 @@
 			path = "Example/Pods/Target Support Files/SpinButton";
 			sourceTree = "<group>";
 		};
+		5FBBF39394EF35AC68D7AEF95362991F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1EEEC0690990211594DDB2399C180075 /* SWSpinButton.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7CA0061AEE9490D540604C2F95AA3314 /* Pods-SpinButton_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,14 +196,6 @@
 			path = "Target Support Files/Pods-SpinButton_Example";
 			sourceTree = "<group>";
 		};
-		B07F69D4D039D7327117B40175C526C5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				177B09DB5B398EB83430082C7CC228BA /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,7 +217,7 @@
 		FEA24FC5FCE288B415E431956396EFB8 /* SpinButton */ = {
 			isa = PBXGroup;
 			children = (
-				B07F69D4D039D7327117B40175C526C5 /* Classes */,
+				5FBBF39394EF35AC68D7AEF95362991F /* Classes */,
 			);
 			path = SpinButton;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CF5F358D63747D1C7103C6B204A9C09 /* Build configuration list for PBXNativeTarget "SpinButton" */;
 			buildPhases = (
-				07D34A5086E4D4103D8CC60284C261E6 /* Sources */,
+				D2E95C6148615584B3C75F35950B8C30 /* Sources */,
 				BF52C608FA1E6E498797A466768527C9 /* Frameworks */,
 				55E667498115CBD722B2E36B7BF2FF92 /* Headers */,
 			);
@@ -333,15 +333,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07D34A5086E4D4103D8CC60284C261E6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CB33AB4D3F0EBE65605049E4897E11C7 /* ReplaceMe.swift in Sources */,
-				6AFBC88F6328F3A12A46C038A692EFE6 /* SpinButton-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		74C55B7970F5AEB0C465F17F39657F51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,6 +346,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1A45F7CB1359128BCAD9ED472882FC7 /* Pods-SpinButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E95C6148615584B3C75F35950B8C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67D69634C929B4B8088EB1BCCF1456A /* SpinButton-dummy.m in Sources */,
+				F7AAC5EB0B7CFCAC7DE083C5CD2C0F8B /* SWSpinButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

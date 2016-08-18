@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: Starting and Stoping rotation of a button can be handled.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/SpinButton'
+  s.homepage         = 'https://github.com/IndhujaG/SpinButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Indhuja' => 'indhuja.govindarajan@softwaysolutions.com' }

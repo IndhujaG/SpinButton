@@ -1,5 +1,7 @@
-<<<<<<< HEAD
+
 # SpinButton
+
+This pod is used to implement infinite rotation to a button. 
 
 [![CI Status](http://img.shields.io/travis/Indhuja/SpinButton.svg?style=flat)](https://travis-ci.org/Indhuja/SpinButton)
 [![Version](https://img.shields.io/cocoapods/v/SpinButton.svg?style=flat)](http://cocoapods.org/pods/SpinButton)
@@ -10,16 +12,29 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+##Requirements
+
+ios8
 
 ## Installation
 
 SpinButton is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
+``ruby
 pod "SpinButton"
-```
+``
+
+##Usage
+
+``ruby
+import SpinButton
+
+@IBOutlet weak var spinBtn: SWSpinButton!
+
+spinBtn.startAnimation()
+spinBtn.stopAnimation()
+``
 
 ## Author
 
@@ -28,6 +43,7 @@ Indhuja, indhuja.govindarajan@softwaysolutions.com
 ## License
 
 SpinButton is available under the MIT license. See the LICENSE file for more info.
-=======
-# SpinButton
->>>>>>> 3e48c47a130a8aadfec65a0a82f6fbbd39cb82ce
+
+
+
+

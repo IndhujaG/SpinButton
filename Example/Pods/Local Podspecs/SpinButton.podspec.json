@@ -1,9 +1,9 @@
 {
   "name": "SpinButton",
   "version": "0.1.0",
-  "summary": "A short description of SpinButton.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SpinButton",
+  "summary": "A sub class of UIButton that allows the button to rotate.",
+  "description": "TODO: Starting and Stoping rotation of a button can be handled.",
+  "homepage": "https://github.com/IndhujaG/SpinButton",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
