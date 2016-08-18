@@ -21,18 +21,19 @@ ios8
 SpinButton is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-``ruby
+``
 pod "SpinButton"
 ``
 
 ##Usage
 
-``ruby
+``
 import SpinButton
 
 @IBOutlet weak var spinBtn: SWSpinButton!
 
 spinBtn.startAnimation()
+
 spinBtn.stopAnimation()
 ``
 

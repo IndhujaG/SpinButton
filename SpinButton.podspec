@@ -25,7 +25,7 @@ TODO: Starting and Stoping rotation of a button can be handled.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Indhuja' => 'indhuja.govindarajan@softwaysolutions.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/SpinButton.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/IndhujaG/SpinButton.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
