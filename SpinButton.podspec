@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SpinButton'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A sub class of UIButton that allows the button to rotate.'
 
 # This description is used to generate tags and improve search results.

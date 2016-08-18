@@ -31,6 +31,10 @@ public class SWSpinButton: UIButton {
     public func stopAnimation(){
         self.layer.removeAllAnimations()
     }
+    
+    public func rotateOnce(){
+        
+    }
 
 
 }
