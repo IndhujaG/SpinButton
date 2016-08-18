@@ -29,8 +29,11 @@ pod "SpinButton"
 
 `
 import SpinButton
+
 @IBOutlet weak var spinBtn: SWSpinButton!
+
 spinBtn.startAnimation()
+
 spinBtn.stopAnimation()
 `
 
